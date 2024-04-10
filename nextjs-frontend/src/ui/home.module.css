@@ -1,0 +1,168 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+/* グローバルナビ用*/
+
+.navbar {
+  padding: 8px 16px;
+}
+
+.container {
+  max-width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  color: #5CB85C;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-right li:not(:first-child) {
+  margin-left: 20px;
+}
+
+
+/* TOPページのブログ一覧 */
+.blog_list_container {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 0;
+
+}
+
+.blog_list_container h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 3px;
+}
+
+.tag-list {
+  background-color: #f3f3f3;
+  padding: 5px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+.tag-list p {
+  margin: 0 0 0.2rem;
+}
+
+.tag-list a {
+  font-size: 0.8rem;
+  background-color: #818a91;
+  padding: 0.3rem 0.6rem;
+  border-radius: 10rem;
+  color: #fff;
+  margin-right: 3px;
+  margin-bottom: 0.2rem;
+  display: inline-block;
+}
+
+.subject_style {
+  font-size: 1rem;
+  color: #999;
+  margin-bottom: 15px;
+  line-height: 1.3rem;
+}
+
+.blog_elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
+/* read-more,タグ */
+.add_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.tag_container {
+  display: flex;
+}
+
+.tag_list {
+  margin-right: 10px;
+  border: 1px solid #999;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+
+
+/* ページネーション */
+.pagination {
+  display: flex;
+  margin-top: 20px;
+}
+
+.pagination li {
+  padding: 5px 10px;
+  border: 1px solid #5CB85C;
+  margin-right: 5px;
+}
+
+
+
+
+/* Mobile
+@media (max-width: 700px) {
+  .content {
+    padding: 4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 320px;
+    text-align: center;
+  } */
+
+
+
+/* Tablet and Smaller Desktop
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .vercelLogo {
+    filter: invert(1);
+  }
+
+  .logo {
+    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+} */

@@ -1,0 +1,86 @@
+/* TOPページのバナーパート */
+/* .main {
+  height: 100vh;
+} */
+
+.article-banner {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem 0;
+  /* justify-content: center; */
+  /* text-align: center; */
+  padding: 32px;
+  width: 100%;
+  margin-bottom: 2rem;
+  min-height: 226px;
+}
+
+.article-banner-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+
+.article-banner h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 0.5rem;
+}
+
+
+.description_container {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+
+
+
+
+/* タグリスト */
+.tag_container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.tag_list {
+  font-size: 0.8rem;
+  color: #aaaaaa;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  border: 1px solid #aaaaaa;
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+  margin-right: 3px;
+  margin-bottom: 0.2rem;
+}
+
+/* 区切り線 */
+
+.divider {
+  margin: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+/* ボタン */
+
+.button_container {
+  display: flex;
+}
+
+.button {
+  color: #333;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  margin-right: 10px;
+
+}
